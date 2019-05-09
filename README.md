@@ -1,3 +1,6 @@
+# Modified
+python 3 support + Windows support.
+
 # pytorch-mask-rcnn
 A pytorch implementation of Mask RCNN detection framework based on 
 * [endernewton/tf-faster-rcnn](https://github.com/endernewton/tf-faster-rcnn), developed based on TensorFlow + Numpy
