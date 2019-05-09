@@ -9,13 +9,14 @@ Thus our pre-trained model takes COCO_2014_train_minus_refer_valtest + COCO_2014
 
 
 ## Prerequisites
-* Python 2.7
+<del>* Python 2.7</del> * Python 3.6
 * Pytorch 0.2 or higher
 * CUDA 8.0 or higher
 * requirements.txt
 
 ## Preparation
 
+<del>
 1. First of all, clone the code with [refer API](https://github.com/lichengunc/refer):
 ```
 git clone --recursive https://github.com/lichengunc/mask-faster-rcnn
@@ -39,7 +40,9 @@ git clone https://github.com/lichengunc/refer data/refer
 ```shell
 python tools/make_coco_minus_refer_instances.py
 ```
+</del>
 
+Double click "get_mask_faster_rcnn_py3.sh". Double click is all you need.
 
 ## Compilation
 
